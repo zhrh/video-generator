@@ -1,0 +1,8 @@
+*.o
+*.swp
+*~
+tags
+data/
+build/
+result/
+vdgen

@@ -1,0 +1,9 @@
+使用方法:
+	./vdgen image_path copy_path new_image_path
+Examples:
+(1)	Random choose some videos
+	./vdgen /media/video2/cache2/ /media/gxg_disk/zhourenhao/testwebvideo/ NULL
+(2) generate various videos of different types
+	./vdgen ../data/testvideo/ NULL ../result/
+	./vdgen /media/gxg_disk/zhourenhao/web_video_test/origin/data/ NULL /media/gxg_disk/zhourenhao/web_video_test/generator/data/
+

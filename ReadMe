@@ -7,3 +7,16 @@ Examples:
 	./vdgen ../data/testvideo/ NULL ../result/
 	./vdgen /media/gxg_disk/zhourenhao/web_video_test/origin/data/ NULL /media/gxg_disk/zhourenhao/web_video_test/generator/data/
 
+最终版参数：
+1. (1, 2) contrast control, (-50, 35)
+2. (3, 4) brightness control, (-25, 25)
+3. (5) gaussian blur, (5)
+4. (6) gaussian noise, (30)
+5. (7) saltpepper noise, (0.02)
+6. (8, 9) add logo, (upright, center)
+7. (10) crop, (0.15)
+
+
+2014年8月26日
+1. 加入读取mysql数据库
+2. 加入生成20万小时视频的ground true
